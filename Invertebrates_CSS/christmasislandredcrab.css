@@ -1,0 +1,137 @@
+/* CHRISTMAS ISLAND RED CRAB PAGE */
+
+/* Christmas Island Red Crab Section */
+.christmasislandredcrab {
+background: url('../images/christmasislandredcrab.jpg');
+background-size: cover;
+height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+}
+
+.christmasislandredcrab h1{
+font-size: 36px;
+margin: 0;
+text-shadow: 2px 2px 4px black;
+}
+
+.christmasislandredcrab p{
+font-size: 18px;
+margin: 10px 0 0 0;
+text-shadow: 2px 2px 4px black;
+}
+
+/* Christmas Island Red Crab Facts */
+.christmasislandredcrab-facts{
+padding: 40px;
+text-align: center;
+}
+
+.christmasislandredcrab-facts h2{
+font-size: 28px;
+color: black;
+margin-bottom: 30px;
+}
+
+.facts-grid{
+display: flex;
+gap: 30px;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.fact-box{
+width: 300px;
+background: white;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.fact-box img{
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.fact-box h3{
+color: #19a500;
+margin: 0 0 10px 0;
+}
+
+.fact-box p{
+margin: 0;
+color: #666;
+line-height: 1.5;
+}
+
+/* More Info */
+.more-info{
+padding: 40px;
+background: #eeeeee;
+text-align: center;
+}
+
+.more-info h2{
+color: #19a500;
+font-size: 28px;
+margin-bottom: 30px;
+}
+
+.info-grid{
+display: flex;
+gap: 30px;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.info-card{
+width: 350px;
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.info-card h3{
+color: #19a500;
+margin: 0 0 15px 0;
+}
+
+.info-card p{
+margin: 0;
+color: #666;
+}
+
+/* Back */
+.back{
+padding: 40px;
+text-align: center;
+background: white;
+}
+
+.back a{
+color: #19a500;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+border: 2px solid #19a500;
+padding: 15px 30px;
+border-radius: 25px;
+display: inline-block;
+}
+
+.back a:hover{
+background: #19a500;
+color: white;
+}
