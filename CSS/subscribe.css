@@ -1,0 +1,59 @@
+.subscribe-page{
+max-width:500px;
+margin:60px auto;
+padding:40px;
+background:#fff;
+text-align:center;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subscribe-page h1{
+color:#19a500;
+font-size:30px;
+margin:0 0 15px 0;
+}
+
+.subscribe-page p{
+color:#666;
+font-size:16px;
+margin:0 0 30px 0;
+line-height:1.4;
+}
+
+.email-input{
+width:85%;
+padding:18px 20px;
+font-size:16px;
+border:3px solid #19a500;
+border-radius:8px;
+margin-bottom:20px;
+box-sizing:border-box;
+}
+
+.subscribe-button{
+background:#19a500;
+color:white;
+padding:18px 35px;
+font-size:17px;
+font-weight:bold;
+border:none;
+border-radius:8px;
+cursor:pointer;
+width:100%;
+box-sizing:border-box;
+}
+
+.subscribe-button:hover{
+background:#148a00;
+}
+
+.subscribe-info{
+margin-top:25px;
+}
+
+.subscribe-info p{
+color:#999;
+font-size:14px;
+margin:0;
+}
